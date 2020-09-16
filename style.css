@@ -107,14 +107,10 @@ a {
 	padding-top: 15px;
 }
 /* ## Header */
-.header-main {
-	border-top: 3px solid #262262;
-}
 .top-header {
     background-color: rgba(130,131,191,0.1);
-    /*
 	padding-bottom: 26px;
-	padding-top: 26px;*/
+	padding-top: 26px;
 }
 .top-header ul {
 	padding-left: 0;
@@ -155,11 +151,7 @@ a {
 .top-header .social ul li a {
 	position: relative;
 }
-.logo {
-    margin-top: -25px;
-    margin-bottom: -25px;
-    width: 25%;
-}
+
 .top-header .logo-block {
 	text-align: left;
 }
@@ -187,10 +179,10 @@ a {
 .ftr-widget,
 .ftr-widget p a {
 	color: #969595;	
+    font-size: 14px;
 }
 .ftr-widget .widget-title {
 	color: #fff;
-
 	font-weight: 500;
 	font-size: 17px;
 	text-transform: uppercase;
@@ -198,10 +190,15 @@ a {
 	margin-top: 0;
 	margin-bottom: 15px;
 }
+.ftr-widget .widget-title a{
+	font-size: 15px;
+}
+
 .ftr-widget .widget-title span,
 .ftr-widget p a,
 .ftr-widget p span {
 	display: block;
+    font-size: 14px;
 }
 .ftr-widget .widget-title i  {
 	height: 30px;
@@ -217,7 +214,8 @@ a {
 	letter-spacing: 0.45px;
 }
 .ftr-widget p a {
-	text-decoration: none;	
+	text-decoration: none;
+    font-size: 14px;
 }
 .ftr-widget p a:hover {
 	color: #fff;
